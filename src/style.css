@@ -215,19 +215,19 @@ li a {
     border: 0px solid black;
     background: black;
     text-decoration: none;
-    color:#ff6209;
+    color:#FFF;
     /* cantos arredondados */
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
     font-family: 'BIZ UDPGothic', sans-serif;
-    color: #ff6209;
+    color: #FFF;
 
 }
 li a:hover {
-    background: #ff6209;
+    background: #FFF;
     color: black;
-    border-color: #ff6209;
+    border-color: #FFF;
 }
 
 .pt{
@@ -286,7 +286,7 @@ li a:hover {
     justify-content: center;
     background-color: black;
     font-size: 45px;
-    color: #ff6209;
+    color: #FFF;
     font-family: 'BIZ UDPGothic', sans-serif;
 }
 
@@ -304,7 +304,7 @@ li a:hover {
     line-height: 30px;
     background-color:black;
     font-size: 25px;
-    color: #ff6209;
+    color: #FFF;
     font-family: 'BIZ UDPGothic', sans-serif;
 }
 
@@ -325,7 +325,7 @@ li a:hover {
     margin-top: 50px;
     margin-left: 70px;
     font-size: 20px;
-    color: #ff6209;
+    color: #FFF;
     font-family: 'BIZ UDPGothic', sans-serif;
 }
 .pt{
@@ -347,7 +347,7 @@ li a:hover {
     line-height: 30px;
     background-color:black;
     font-size: 20px;
-    color: #ff6209;
+    color: #FFF;
     font-family: 'BIZ UDPGothic', sans-serif;
 }
 .pt33{
@@ -376,7 +376,7 @@ li a:hover {
     line-height: 30px;
     background-color:black;
     font-size: 20px;
-    color: #ff6209;
+    color: #FFF;
     font-family: 'BIZ UDPGothic', sans-serif;
 }
 
@@ -409,7 +409,7 @@ li a:hover {
     padding-top: 20%;
     line-height: 40px;
     font-size: 20px;
-    color: #ff6209;
+    color: #FFF;
     font-family: 'BIZ UDPGothic', sans-serif;
 }
 
@@ -436,7 +436,7 @@ li a:hover {
     justify-content: center;
     line-height: 20px;
     font-size: 20px;
-    color: #ff6209;
+    color:#FFF;
     font-family: 'BIZ UDPGothic', sans-serif;
 }
 
@@ -447,9 +447,9 @@ li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    line-height: 30px;
+    line-height: 15px;
     font-size: 15px;
-    color: #ff6209;
+    color: #FFF;
     font-family: 'BIZ UDPGothic', sans-serif;
 }
 
@@ -465,7 +465,7 @@ li a:hover {
     justify-content: center;
     line-height: 30px;
     font-size: 12px;
-    color: #ff6209;
+    color: #FFF;
     font-family: 'BIZ UDPGothic', sans-serif;
     letter-spacing: 1px;
 }
