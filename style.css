@@ -1,0 +1,471 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* css reset */
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap');
+
+
+/* grid */
+
+.row,
+.column {
+  box-sizing: border-box;
+}
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.column {
+  position: relative;
+  float: left;
+}
+
+.column + .column {
+  margin-left: 1.6%;
+}
+
+.row,
+.column {
+ box-sizing: border-box;
+}
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.column {
+  position: relative;
+  float: left;
+}
+
+.column + .column {
+  margin-left: 1.6%;
+}
+
+.column-1 {
+  width: 6.86666666667%;
+}
+
+.column-2 {
+  width: 15.3333333333%;
+}
+
+.column-3 {
+  width: 23.8%;
+}
+
+.column-4 {
+  width: 32.2666666667%;
+}
+
+.column-5 {
+  width: 40.7333333333%;
+}
+
+.column-6 {
+  width: 49.2%;
+}
+
+.column-7 {
+  width: 57.6666666667%;
+}
+
+.column-8 {
+  width: 66.1333333333%;
+}
+
+.column-9 {
+  width: 74.6%;
+}
+
+.column-10 {
+  width: 83.0666666667%;
+}
+
+.column-11 {
+  width: 91.5333333333%;
+}
+
+.column-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 550px) {
+  .column-1,
+  .column-2,
+  .column-3,
+  .column-4,
+  .column-5,
+  .column-6,
+  .column-7,
+  .column-8,
+  .column-9,
+  .column-10,
+  .column-11,
+  .column-12 {
+    width: auto;
+    float: none;
+  }
+
+  .column + .column {
+    margin-left: 1.6;
+  }
+}
+
+/* grid */
+
+
+
+ul {
+    margin: 0;
+    padding:0;
+}
+ 
+li {
+   
+    font-size: 18px;
+    padding: 0px;
+    list-style: none; 
+    margin: 0px;
+    display: inline;
+}
+
+
+li a {
+    
+    padding: 0px 10px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+
+li a {
+  
+    padding: 0px 10px; 
+    margin:0;
+    border: 0px solid black;
+    background: black;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    font-family: 'BIZ UDPGothic', sans-serif;
+    color: #FFF;
+
+}
+li a:hover {
+    background: #FFF;
+    color: black;
+    border-color: #FFF;
+}
+
+.pt{
+    background-color: black;
+    
+}
+
+.menu{
+    margin-top: 5px;
+    margin-left: 60%; 
+   background-color: black;
+}
+
+.pt00{
+    padding-top: 10%;
+    background-color: black;
+    height: 700px;
+}
+
+.pt01{
+    background-color: black;
+    height: 500px;
+}
+
+.marca{
+    background-color:  black;
+    height: 100%;
+}
+
+.pt11{
+    height: 300px;
+    background-color: black;
+}
+
+.photo{
+    
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.pt12{
+    height: 100px;
+    background-color: black; 
+}
+
+
+
+.name{
+    
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    font-size: 45px;
+    color: #FFF;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+.pt13{
+    height: 100px;
+    background-color: black;
+}
+
+.titles{
+    margin-top: -5%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 30px;
+    background-color:black;
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+.pt30{
+    height: 100px;
+    background-color: black;
+}
+
+.btn0{
+    
+    background-color: black;
+    width: 143px;
+}
+
+.btn1{
+   background-color: black;
+   width: 70px;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+.pt{
+    background-color: black;
+}
+
+.pt31{
+    height: 300px;
+    background-color: black;
+}
+.pt32{
+    height: 300px;
+    background-color:black;
+    color: aqua;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 30px;
+    background-color:black;
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+.pt33{
+    height: 300px;
+    background-color: black;
+}
+
+.sk00{
+    height: 180px;
+    background-color: rgb(0, 0, 0);
+}
+
+.sk01{
+    height: 180px;
+    background-color: black;
+}
+
+
+.tit2{
+ 
+    margin-top: 0%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 30px;
+    background-color:black;
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+.ptsk{
+   
+    height: 360px; 
+    background-color: rgb(0, 0, 0);
+}
+
+.ssk{
+    height: 360px;
+    background-color: rgb(1, 2, 2);
+}
+
+.ct0{
+    
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+}
+
+.ct1{
+    padding-top: 30px;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+}
+
+.ctm{
+    float: left;
+    display: inline-block;
+    padding-top: 20%;
+    line-height: 40px;
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+.port{
+   
+    background-color: black;
+    height: 900px;
+}
+
+
+.portcont{
+    margin-top: 5%;
+    background-color: #292827;
+    height: 200px;
+    border-radius: 10%;
+}
+
+
+.porttext{
+    padding-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 20px;
+    font-size: 20px;
+    color:#FFF;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+
+
+.portdesc{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 15px;
+    font-size: 15px;
+    color: #FFF;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+.rd{
+    height: 35px;
+    background-color: #000000;
+}
+
+.rdtx{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #FFF;
+    font-family: 'BIZ UDPGothic', sans-serif;
+    letter-spacing: 1px;
+}
